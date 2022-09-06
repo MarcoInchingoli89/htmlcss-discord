@@ -129,6 +129,10 @@
   font-size: 35px;
 }
 
+.flag {
+  height: 20px;
+}
+
 .row_bottom {
     background-color: aquamarine;
     border: 1px solid;
@@ -165,6 +169,11 @@
 
 .align_center {
   align-items: center;
+}
+
+.flex_start {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .title_white {
