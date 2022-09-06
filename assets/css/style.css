@@ -204,16 +204,16 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.font_size {
+  font-size: 45px;
+}
+
 .padding_bottom {
   padding-bottom: 100px;
 }
 
-.width_stretch {
-  width: 250px;
-}
-
 .item1 {
-  width: 450px;
+  width: 650px;
 }
 
 .container_padding {
