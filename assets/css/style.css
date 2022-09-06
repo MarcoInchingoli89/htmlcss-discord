@@ -20,10 +20,10 @@
 
 /* Debug */
 
-/* .debug [class^="col-"] {
+/*   .debug [class^="col-"] {
     background-color: red;
     border: 1px solid;
-  }
+  } */
   
   .debug header {
     height: 16px;
@@ -31,12 +31,12 @@
 
  /*  .debug .banner {
     background-color: blue;
-  }
+  } */ */
 
   .debug .header_background {
     background-color: aqua;
     height: 32px;
-  } */
+  }
 
   .debug .middle_background {
     background-color: lightgrey;
@@ -81,12 +81,18 @@
 
 /*#region Header*/
 
-header {
-    height: 16px;
+  .header_background {
+    background-color: #255EE9;
+    height: 50px;
+  }
+
+  .col-10 > nav {
+    margin-top: 20px;
   }
 
   .logo_discord {
     height: 30px;
+    margin-top: 20px;
   }
 
   .login {
@@ -96,7 +102,7 @@ header {
     padding: 0 15px;
     padding-top: 8px;
     padding-bottom: 15px;
-    text-align: center;
+    margin-top: 16px;
   }
 
 
@@ -107,6 +113,8 @@ header {
 .banner {
   background-image: url("../img/jumbo.png");
   background-size: cover;
+  background-position: top;
+  height: 500px;
 }
 
 .banner_content {
