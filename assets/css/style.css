@@ -50,12 +50,12 @@
     background-color: black;
   }
 
-  .debug .banner_content {
+ /*  .debug .banner_content {
     background-color: rgb(229, 149, 229);
     border: 1px solid;
     height: 180px;
     width: 850px;
-  }
+  } */
 
   .debug .section_content {
     background-color: green;
@@ -104,10 +104,12 @@ header {
 
 /*#region Main*/
 
+.banner {
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+}
 
 .banner_content {
-    background-color: rgb(229, 149, 229);
-    border: 1px solid;
     height: 180px;
     width: 850px;
   }
