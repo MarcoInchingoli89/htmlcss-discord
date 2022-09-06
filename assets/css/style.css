@@ -18,51 +18,6 @@
 
 /*#endregion Common Rules */
 
-/* Debug */
-
-/*   .debug [class^="col-"] {
-    background-color: red;
-    border: 1px solid;
-  } */
-  
-  .debug header {
-    height: 16px;
-  } */
-
- /*  .debug .banner {
-    background-color: blue;
-  } */ */
-
-  .debug .bottom_background {
-    background-color: lightgrey;
-  }
-
-  .debug .footer_background {
-    background-color: black;
-  }
-
- /*  .debug .banner_content {
-    background-color: rgb(229, 149, 229);
-    border: 1px solid;
-    height: 180px;
-    width: 850px;
-  } */
-
-  .debug .row_bottom {
-    background-color: aquamarine;
-    border: 1px solid;
-  }
-
-  .debug .logo {
-    background-color: pink;
-    border: 1px solid;
-  }
-
-  .debug .button {
-    background-color: pink;
-    border: 1px solid;
-  }
-
 /*#region Header*/
 
   .header_background {
@@ -111,10 +66,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 550px;
   }
 
   .stars {
     background-image: url("../img/stars.svg");
+    background-size: contain;
   }
 
 /*#endregion Main*/
