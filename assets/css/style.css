@@ -1,0 +1,245 @@
+/*#region Common Rules */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+/*#endregion Common Rules */
+
+/* Debug */
+
+.debug [class^="col-"] {
+    background-color: red;
+    border: 1px solid;
+  }
+  
+  .debug header {
+    height: 16px;
+  }
+
+  .debug .banner {
+    background-color: blue;
+  }
+
+  .debug .header_background {
+    background-color: aqua;
+    height: 32px;
+  }
+
+  .debug .middle_background {
+    background-color: lightgrey;
+  }
+
+  .debug .bottom_background {
+    background-color: lightgrey;
+  }
+
+  .debug .footer_background {
+    background-color: black;
+  }
+
+  .debug .banner_content {
+    background-color: rgb(229, 149, 229);
+    border: 1px solid;
+    height: 180px;
+    width: 850px;
+  }
+
+  .debug .section_content {
+    background-color: green;
+    border: 1px solid;
+    height: 550px;
+    width: 1200px;
+  }
+
+  .debug .row_bottom {
+    background-color: aquamarine;
+    border: 1px solid;
+  }
+
+  .debug .logo {
+    background-color: pink;
+    border: 1px solid;
+  }
+
+  .debug .button {
+    background-color: pink;
+    border: 1px solid;
+  }
+
+/*#region Header*/
+
+header {
+    height: 16px;
+  }
+
+  .logo_discord {
+    height: 30px;
+  }
+
+  .login {
+    border-radius: 25px;
+    height: 15px;
+    font-size: 10px;
+    padding: 0 15px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+
+/*#endregion Header*/
+
+/*#region Main*/
+
+
+.banner_content {
+    background-color: rgb(229, 149, 229);
+    border: 1px solid;
+    height: 180px;
+    width: 850px;
+  }
+
+  .section_content {
+    background-color: green;
+    border: 1px solid;
+    height: 550px;
+    width: 1200px;
+  }
+
+/*#endregion Main*/
+
+/*#region Footer*/
+
+.row_bottom {
+    background-color: aquamarine;
+    border: 1px solid;
+  }
+
+  .logo {
+    background-color: pink;
+    border: 1px solid;
+  }
+
+  .button {
+    background-color: pink;
+    border: 1px solid;
+  }
+
+/*#endregion Footer*/
+
+/*#region Utilities*/
+
+.flex_center {
+    display: flex;
+    justify-content: center;
+}
+
+.container_padding {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.footer_padding {
+    padding-top: 6px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid white;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row_header {
+    height: 13px;
+    margin-top: 8px;
+}
+
+.row_section {
+    height: 250px;
+}
+
+.row_footer {
+    height: 350px;
+}
+
+.row_bottom {
+    display: flex;
+    height: 100px;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangle {
+    height: 30px;
+    width: 100px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.col-1 {
+    width: calc( (100% / 12) *1);
+}
+
+.col-2 {
+    width: calc( (100% / 12) *2);
+}
+
+.col-3 {
+    width: calc( (100% / 12) *3);
+}
+
+.col-4 {
+    width: calc( (100% / 12) *4);
+}
+
+.col-5 {
+    width: calc( (100% / 12) *5);
+}
+
+.col-6 {
+    width: calc( (100% / 12) *6);
+}
+
+.col-7 {
+    width: calc( (100% / 12) *7);
+}
+
+.col-8 {
+    width: calc( (100% / 12) *8);
+}
+
+.col-9 {
+    width: calc( (100% / 12) *9);
+}
+
+.col-10 {
+    width: calc( (100% / 12) *10);
+}
+
+.col-11 {
+    width: calc( (100% / 12) *11);
+}
+
+.col-12 {
+    width: calc( (100% / 12) *12);
+}
+
+/*#endregion Utilities*/
