@@ -20,23 +20,23 @@
 
 /* Debug */
 
-.debug [class^="col-"] {
+/* .debug [class^="col-"] {
     background-color: red;
     border: 1px solid;
   }
   
   .debug header {
     height: 16px;
-  }
+  } */
 
-  .debug .banner {
+ /*  .debug .banner {
     background-color: blue;
   }
 
   .debug .header_background {
     background-color: aqua;
     height: 32px;
-  }
+  } */
 
   .debug .middle_background {
     background-color: lightgrey;
@@ -145,6 +145,15 @@ header {
 .flex_center {
     display: flex;
     justify-content: center;
+}
+
+.space_evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.white_text {
+  color: white;
 }
 
 .container_padding {
