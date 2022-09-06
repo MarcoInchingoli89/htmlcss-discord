@@ -33,15 +33,6 @@
     background-color: blue;
   } */ */
 
-  .debug .header_background {
-    background-color: aqua;
-    height: 32px;
-  }
-
-  .debug .middle_background {
-    background-color: lightgrey;
-  }
-
   .debug .bottom_background {
     background-color: lightgrey;
   }
@@ -119,6 +110,10 @@
     border: 1px solid;
     height: 550px;
     width: 1200px;
+  }
+
+  .middle_background {
+    background-color: #F6F6F6;
   }
 
 /*#endregion Main*/
@@ -212,7 +207,7 @@
   padding-bottom: 100px;
 }
 
-.item1 {
+.item {
   width: 650px;
 }
 
