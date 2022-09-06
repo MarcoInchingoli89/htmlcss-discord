@@ -121,6 +121,10 @@
 
 /*#region Footer*/
 
+.footer_background {
+  background-color: #23272A;
+}
+
 .height_bottom {
   height: 750px;
 }
@@ -133,20 +137,18 @@
   height: 20px;
 }
 
-.row_bottom {
-    background-color: aquamarine;
-    border: 1px solid;
-  }
+.color_icons {
+  color: white;
+  gap: 20px;
+  display: flex;
+  margin-top: 15px;
+}
 
-  .logo {
-    background-color: pink;
-    border: 1px solid;
-  }
-
-  .button {
-    background-color: pink;
-    border: 1px solid;
-  }
+.column_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /*#endregion Footer*/
 
@@ -247,6 +249,10 @@
   padding-bottom: 32px;
 }
 
+.padding_left {
+  padding-left: 6px;
+}
+
 .padding_bottom {
   padding-bottom: 100px;
 }
@@ -262,8 +268,8 @@
 
 .footer_padding {
     padding-top: 6px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid white;
+    padding-bottom: 150px;
+    border-bottom: 1px solid #7289DA;
 }
 
 .clearfix::after {
